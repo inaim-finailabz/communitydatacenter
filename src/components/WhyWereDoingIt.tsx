@@ -10,8 +10,9 @@ const cards = [
         If you're a university research group or a small company that needs GPU compute, you have two
         options today and both are bad. <strong>Pay-as-you-go</strong> means queueing behind larger
         customers and a price the provider sets this quarter. <strong>Reserved capacity</strong> means
-        guaranteed access — and paying for every hour whether you use it or not. Average GPU utilisation
-        across production clusters runs around <strong>5%</strong>. Neither option gives you any say in
+        guaranteed access — and paying for every hour whether you use it or not. Industry surveys of
+        production GPU clusters commonly report average utilisation in the <strong>single digits to low
+        teens</strong>, well below what buyers are paying for. Neither option gives you any say in
         anything.
       </>
     ),
@@ -23,8 +24,11 @@ const cards = [
       <>
         Because idle time can be shared. One research group's quiet fortnight is another group's training
         run. When members pool capacity, the machine stays busy — and the cost per useful hour falls, not
-        because we found cheaper electricity, but because nobody is paying for emptiness. It isn't a
-        cheaper hourly rate. It's higher utilisation of hardware that members own together.
+        because we found cheaper electricity, but because nobody is paying for emptiness. Academic demand
+        spikes around conference and grant deadlines, so a members' base of researchers alone would peak
+        and idle together — mixing in studios and agencies with steady workloads is what keeps the curve
+        flat. It isn't a cheaper hourly rate. It's higher utilisation of hardware that members own
+        together.
       </>
     ),
   },

@@ -12,16 +12,30 @@ const WhatItBuys: React.FC = () => {
               <Server className="h-3.5 w-3.5" />
               What the money buys
             </div>
+            {/* TODO(founder): GPU count is a conservative placeholder sized to the £200,000 GPU-servers
+                line at current H100 market pricing (~£25k-35k/unit landed in a server). Confirm the
+                actual count, model, and new-vs-refurbished sourcing plan against a real supplier quote
+                before this goes live — it's a legal detail of the raise, not just copy. */}
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Sixteen GPUs, installed in an existing Scottish datacenter, owned by the people who use them.
+              Six H100 GPUs, installed in an existing Scottish datacenter, owned by the people who use them.
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              That's it. Not a building. Not a plan. Sixteen graphics processors in a rack in Lanarkshire,
-              running about eight weeks after the money is in.
+              That's it. Not a building. Not a plan. Six H100 graphics processors in a rack in Lanarkshire,
+              running eight to twelve weeks after the money is in — procurement and colo contracting take
+              time.
             </p>
-            <p className="text-slate-600 leading-relaxed">
-              Released in four stages, each independently verified before the next is paid out. If we don't
-              raise the full amount, nothing is called and nothing is owed.
+            <p className="text-slate-600 leading-relaxed mb-4">
+              We will not open the raise until we hold letters of intent covering at least half of Year 1
+              capacity. If that commercial validation doesn't materialise, we don't ask anyone for money.
+            </p>
+            <p className="text-slate-600 leading-relaxed mb-4">
+              Released in four stages, each verified by an independent chartered accountant appointed by
+              the board before the next is paid out. If we don't raise the full amount, nothing is called
+              and nothing is owed.
+            </p>
+            <p className="text-slate-500 text-sm leading-relaxed">
+              No salaries are drawn from this raise. Founding operational work is unpaid until the society
+              reaches sustaining revenue.
             </p>
           </div>
 

@@ -2,6 +2,10 @@ import React from 'react';
 import { AlertTriangle } from 'lucide-react';
 
 const RiskBanner: React.FC = () => {
+  /* TODO(legal): this high-risk banner and the "not a financial promotion" disclaimer in the
+     footer/risk section can't both be right — withdrawable share capital in a registered society
+     generally sits outside the financial promotion regime. Keep both until a solicitor experienced
+     in community share offers (or the Community Shares Unit) confirms which applies. */
   return (
     <div className="bg-slate-900 text-slate-100 text-sm">
       <div className="container mx-auto px-6 py-2.5 flex flex-wrap items-center gap-2 justify-center text-center">

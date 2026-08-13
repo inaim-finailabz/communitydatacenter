@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider bg-white/10 text-cyan-300 px-3 py-1.5 rounded-full mb-6">
             <MapPin className="h-3.5 w-3.5" />
-            Lanarkshire, Scotland — Community Benefit Society
+            Lanarkshire, Scotland — forming a Community Benefit Society
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">

@@ -22,7 +22,7 @@ const answer = (query: string): string => {
   const q = query.toLowerCase();
 
   if (q.includes('buy') || q.includes('budget') || q.includes('money') || q.includes('spend')) {
-    return 'The £400,000 buys sixteen GPUs installed in an existing Scottish datacenter, plus networking, storage, a colocation deposit and first six months, software, insurance, legal and audit costs, campaign costs, and a working capital reserve. Full breakdown is in the "What it buys" section above. Funds release in four independently verified stages — nothing is called if we don\'t raise the full amount.';
+    return 'The £400,000 buys six H100 GPUs installed in an existing Scottish datacenter, plus networking, storage, a colocation deposit and first six months, software, insurance, legal and audit costs, campaign costs, and a working capital reserve. Full breakdown is in the "What it buys" section above. Funds release in four stages verified by an independent chartered accountant — nothing is called if we don\'t raise the full amount.';
   }
   if (q.includes('cloud') || q.includes('rent') || q.includes('different') || q.includes('aws') || q.includes('hyperscaler')) {
     return "Cloud pay-as-you-go means queuing behind bigger customers at a price the provider sets. Reserved cloud capacity means paying for every hour whether you use it or not — average utilisation across production clusters is around 5%. A co-operative pools idle time across members instead, so the hardware stays busy and members share the cost, not because of cheaper electricity, but because nobody pays for emptiness.";
@@ -37,7 +37,7 @@ const answer = (query: string): string => {
     return "AI Labz operates under a permanent asset lock — it cannot be acquired, floated, or sold, by constitution, not just by intention. Every member gets one vote, whether they hold £250 or £25,000.";
   }
   if (q.includes('when') || q.includes('timeline') || q.includes('live') || q.includes('deploy')) {
-    return 'The GPUs go live roughly eight weeks after the raise closes and funds are released. Year 1 target is 16 GPUs live, 250+ members, and utilisation above 60%.';
+    return 'The GPUs go live roughly eight to twelve weeks after the raise closes and funds are released. Year 1 target is 6 GPUs live, 250+ members (around 8 holding capacity contracts), and utilisation above 60%.';
   }
 
   return "Good question — the fullest answer to that is on this page. Try asking about the budget, how the co-op model works, the risks, or who can join, or use the register interest form below and we'll follow up directly.";

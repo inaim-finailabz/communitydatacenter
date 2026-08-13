@@ -20,15 +20,19 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-white/10 pt-6 space-y-3">
           <p className="text-xs leading-relaxed">
-            Community Data Center is a project of AI Labz Ltd, operating as a Community Benefit Society.
+            Community Data Center is being developed by AI Labz Ltd, which is promoting the formation of
+            a Community Benefit Society. Registration of the society is the first funded milestone.
+            Shares will be issued by the society, not by AI Labz Ltd.
+          </p>
+          {/* TODO(legal): financial-promotion status conflicts with the risk banner above — confirm
+              with a solicitor experienced in community share offers (or the Community Shares Unit)
+              whether withdrawable share capital in a registered society sits outside the financial
+              promotion regime before resolving this wording either way. */}
+          <p className="text-xs leading-relaxed">
             Capital at risk. Community shares are not covered by the Financial Services Compensation
             Scheme. This site is not a financial promotion and does not constitute an offer of shares.
           </p>
-          <p className="text-xs">
-            © {year} AI Labz Ltd. All rights reserved. AI Labz Ltd is the legal owner of all intellectual
-            property developed under the FinAI Labz brand, including open-source and proprietary
-            technology.
-          </p>
+          <p className="text-xs">© {year} AI Labz Ltd. All rights reserved.</p>
         </div>
       </div>
     </footer>
