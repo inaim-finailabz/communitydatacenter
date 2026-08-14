@@ -6,6 +6,7 @@ import WhatItBuys from './components/WhatItBuys';
 import WhyWereDoingIt from './components/WhyWereDoingIt';
 import WhoBenefits from './components/WhoBenefits';
 import WhoDoesNotBenefit from './components/WhoDoesNotBenefit';
+import MarketComparison from './components/MarketComparison';
 import Milestones from './components/Milestones';
 import RiskDisclosure from './components/RiskDisclosure';
 import RegisterInterest from './components/RegisterInterest';
@@ -22,6 +23,7 @@ const App: React.FC = () => {
       <WhyWereDoingIt />
       <WhoBenefits />
       <WhoDoesNotBenefit />
+      <MarketComparison />
       <Milestones />
       <RiskDisclosure />
       <RegisterInterest />

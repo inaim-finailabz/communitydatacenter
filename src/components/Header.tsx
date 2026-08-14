@@ -6,6 +6,7 @@ const links = [
   { href: '#why', label: 'Why' },
   { href: '#who-benefits', label: 'Who benefits' },
   { href: '#not-for', label: 'Not for everyone' },
+  { href: '#vs-renting', label: 'Vs. renting' },
   { href: '#milestones', label: 'Milestones' },
   { href: '#register', label: 'Register interest' },
 ];

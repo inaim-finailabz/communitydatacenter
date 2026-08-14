@@ -12,9 +12,9 @@ const Footer: React.FC = () => {
             <Cpu className="h-6 w-6 text-cyan-400" />
             Community Data Center
           </div>
-          <a href="mailto:communitydatacenter@finailabz.com" className="flex items-center gap-2 text-sm hover:text-white transition-colors">
+          <a href="mailto:i.naim@finailabz.com" className="flex items-center gap-2 text-sm hover:text-white transition-colors">
             <Mail className="h-4 w-4" />
-            communitydatacenter@finailabz.com
+            i.naim@finailabz.com
           </a>
         </div>
 

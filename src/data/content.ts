@@ -89,5 +89,38 @@ export const milestones = [
   },
 ];
 
+export const marketComparisonRows: { dimension: string; renting: string; membership: string }[] = [
+  {
+    dimension: 'Effective cost (H100-class GPU)',
+    renting: '$1.30–$3+/hr on public GPU marketplaces, no ownership',
+    membership: '≈$1.74/hr equivalent* — and you own a share of the hardware',
+  },
+  {
+    dimension: 'Commitment',
+    renting: 'None — pay as you go, cancel anytime',
+    membership: 'One-time share purchase, then an annual capacity contract',
+  },
+  {
+    dimension: 'Say in how it’s run',
+    renting: 'None — you’re a customer',
+    membership: 'One member, one vote, regardless of stake',
+  },
+  {
+    dimension: 'Ownership',
+    renting: 'None',
+    membership: 'Yes — permanent asset lock; the society cannot be acquired, floated, or sold',
+  },
+  {
+    dimension: 'Jurisdiction / data residency',
+    renting: 'Varies by provider — often undisclosed or offshore',
+    membership: 'Scotland, UK — published',
+  },
+  {
+    dimension: 'If the provider changes terms or is sold',
+    renting: 'You accept whatever the new owner decides',
+    membership: 'Cannot happen — the asset lock is constitutional, not a policy',
+  },
+];
+
 export const oneSentence =
   "We're raising £400,000 so that universities, small businesses and independent researchers can own the AI infrastructure they use — rather than rent it from companies that can change the terms, raise the price, or be sold tomorrow.";
