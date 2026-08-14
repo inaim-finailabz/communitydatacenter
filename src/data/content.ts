@@ -72,7 +72,7 @@ export const milestones = [
   {
     year: 'Year 1',
     detail:
-      '6 GPUs live, 250+ members, utilisation above 60%, first quarterly report published including whatever went badly. Of those 250+ members, around 8 hold capacity contracts — most members are supporters and occasional users rather than continuous consumers, and the cluster is sized for the latter.',
+      '8 GPUs live, 250+ members, utilisation above 60%, first quarterly report published including whatever went badly. Of those 250+ members, around 10 hold capacity contracts — most members are supporters and occasional users rather than continuous consumers, and the cluster is sized for the latter.',
   },
   {
     year: 'Year 2',
